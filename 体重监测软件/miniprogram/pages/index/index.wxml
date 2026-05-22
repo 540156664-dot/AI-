@@ -1,0 +1,100 @@
+<!-- 首页 · 数据看板 -->
+<view class="page">
+  <!-- 同步状态栏 -->
+  <view class="sync-bar" wx:if="{{isBound}}">
+    <view class="sync-dot {{syncStatus === 'syncing' ? 'pulse' : ''}}"></view>
+    <text wx:if="{{syncStatus === 'syncing'}}">正在同步...</text>
+    <text wx:elif="{{syncStatus === 'done'}}">最后同步: {{lastSyncText}}</text>
+    <text wx:else>下拉刷新同步</text>
+  </view>
+
+  <!-- 未绑定引导 -->
+  <view class="bind-guide card" wx:if="{{!isBound}}">
+    <view class="bind-icon">⚖️</view>
+    <view class="bind-title">连接你的小米体脂秤</view>
+    <view class="bind-desc">授权小米账号后，体重数据将自动同步，无需手动录入</view>
+    <button class="btn-primary bind-btn" bindtap="goBind">立即绑定设备</button>
+  </view>
+
+  <!-- 主数据区域 -->
+  <view wx:else>
+    <!-- 今日体重 -->
+    <view class="hero card">
+      <view class="hero-label">今日体重</view>
+      <view class="hero-value" wx:if="{{todayRecord}}">
+        <text class="hero-num weight-num">{{todayRecord.weight}}</text>
+        <text class="hero-unit">kg</text>
+      </view>
+      <view class="hero-empty" wx:else>
+        <text class="hero-num muted">--</text>
+        <text class="hero-unit">kg</text>
+      </view>
+
+      <!-- 升降箭头 -->
+      <view class="hero-change" wx:if="{{weightChange !== null}}">
+        <view class="change-badge {{weightChange < 0 ? 'down' : weightChange > 0 ? 'up' : 'zero'}}">
+          <text wx:if="{{weightChange < 0}}">↓</text>
+          <text wx:elif="{{weightChange > 0}}">↑</text>
+          <text wx:else>→</text>
+          <text>{{weightChangeAbs}} kg</text>
+        </view>
+        <text class="change-label">较昨日</text>
+      </view>
+      <view class="hero-hint text-light" wx:if="{{!todayRecord}}">
+        今天还未上秤，站上去自动记录
+      </view>
+    </view>
+
+    <!-- 身体数据卡片 -->
+    <view class="body-cards" wx:if="{{bmi !== null || bodyFat !== null}}">
+      <view class="body-card bmi-card" wx:if="{{bmi !== null}}">
+        <view class="body-card-label">BMI</view>
+        <view class="body-card-value">{{bmiStr}}</view>
+        <view class="body-card-tag" style="color: {{bmiColor}}">{{bmiLabel}}</view>
+      </view>
+      <view class="body-card fat-card" wx:if="{{bodyFat !== null}}">
+        <view class="body-card-label">体脂率</view>
+        <view class="body-card-value">{{bodyFat}}%</view>
+        <view class="body-card-tag">{{fatLabel}}</view>
+      </view>
+    </view>
+
+    <!-- 目标进度 -->
+    <view class="card goal-section" wx:if="{{targetWeight !== null}}" bindtap="goGoal">
+      <view class="flex-between">
+        <view class="goal-header">目标 {{targetWeight}} kg</view>
+        <view class="goal-progress-text text-secondary">{{goalProgress}}%</view>
+      </view>
+      <view class="progress-bar">
+        <view class="progress-fill" style="width: {{goalProgress}}%"></view>
+      </view>
+      <view class="goal-bottom text-secondary" wx:if="{{weightRemain}}">
+        还需减重 <text class="goal-remain">{{weightRemain}} kg</text>
+        <text wx:if="{{estimateDays}}"> · 预计 {{estimateDays}} 天</text>
+      </view>
+    </view>
+
+    <!-- 本周摘要 -->
+    <view class="card week-summary">
+      <view class="section-title">本周概览</view>
+      <view class="summary-row">
+        <view class="summary-item">
+          <view class="summary-num weight-num {{weekMin !== null ? '' : 'muted'}}">{{weekMinStr}}</view>
+          <view class="summary-label">最低</view>
+        </view>
+        <view class="summary-item">
+          <view class="summary-num weight-num {{weekMax !== null ? '' : 'muted'}}">{{weekMaxStr}}</view>
+          <view class="summary-label">最高</view>
+        </view>
+        <view class="summary-item">
+          <view class="summary-num weight-num {{weekAvg !== null ? '' : 'muted'}}">{{weekAvgStr}}</view>
+          <view class="summary-label">平均</view>
+        </view>
+        <view class="summary-item">
+          <view class="summary-num weight-num {{weekCount > 0 ? '' : 'muted'}}">{{weekCount}}</view>
+          <view class="summary-label">记录天数</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,51 @@
+<!-- 体重趋势图 -->
+<view class="page">
+  <!-- 时间范围切换 -->
+  <view class="time-tabs">
+    <view
+      class="tab-item {{activeRange === item.value ? 'active' : ''}}"
+      wx:for="{{timeRanges}}"
+      wx:key="value"
+      bindtap="switchRange"
+      data-range="{{item.value}}"
+    >{{item.label}}</view>
+  </view>
+
+  <!-- 图表区域 -->
+  <view class="chart-container card">
+    <trend-chart
+      data="{{chartData}}"
+      targetWeight="{{targetWeight}}"
+      height="{{chartHeight}}"
+      bind:pointtap="onPointTap"
+    />
+  </view>
+
+  <!-- 数据摘要 -->
+  <view class="stats-row" wx:if="{{showStats}}">
+    <view class="stat-item">
+      <view class="stat-value weight-num trend-down">{{minWeight}} kg</view>
+      <view class="stat-label">最低</view>
+    </view>
+    <view class="stat-item">
+      <view class="stat-value weight-num">{{avgWeight}} kg</view>
+      <view class="stat-label">平均</view>
+    </view>
+    <view class="stat-item">
+      <view class="stat-value weight-num {{weightTrend < 0 ? 'trend-down' : weightTrend > 0 ? 'trend-up' : ''}}">{{maxWeight}} kg</view>
+      <view class="stat-label">最高</view>
+    </view>
+    <view class="stat-item">
+      <view class="stat-value weight-num {{weightTrend < 0 ? 'trend-down' : weightTrend > 0 ? 'trend-up' : ''}}">
+        {{weightTrend > 0 ? '+' : ''}}{{weightTrendStr}}
+      </view>
+      <view class="stat-label">趋势</view>
+    </view>
+  </view>
+
+  <!-- 空状态 -->
+  <view class="empty-state" wx:if="{{!hasData}}">
+    <view class="title">暂无体重数据</view>
+    <view class="desc">绑定小米体脂秤后，数据将自动出现在这里</view>
+  </view>
+</view>

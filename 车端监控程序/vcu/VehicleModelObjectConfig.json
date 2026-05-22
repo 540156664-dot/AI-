@@ -1,0 +1,1213 @@
+{
+    "adjustParamInfos": [
+        {
+            "paramCnName": "盖板调零",
+            "paramDatatype": 10,
+            "paramEnName": "calibrationOffset",
+            "paramUnit": "",
+            "paramValue": "0"
+        }
+    ],
+    "appParamInfos": [
+		{
+            "paramCnName": "驱动单元个数",
+            "paramDatatype": 10,
+            "paramEnName": "DriverCount",
+            "paramUnit": "",
+            "paramValue": 2
+        },
+        {
+            "paramCnName": "最大速度",
+            "paramDatatype": 10,
+            "paramEnName": "VehicleMaxSpeed",
+            "paramUnit": "",
+            "paramValue": 2.16
+        },
+        {
+            "paramCnName": "静止线速度",
+            "paramDatatype": 10,
+            "paramEnName": "VehicleStillSpeed",
+            "paramUnit": "",
+            "paramValue": 0.0
+        },
+        {
+            "paramCnName": "静止角速度",
+            "paramDatatype": 10,
+            "paramEnName": "VehicleStillAngleSpeed",
+            "paramUnit": "",
+            "paramValue": 0.0
+        },
+        {
+            "paramCnName": "低电量",
+            "paramDatatype": 10,
+            "paramEnName": "VehicleLowPower",
+            "paramUnit": "",
+            "paramValue": 0.0
+        },
+        {
+            "paramCnName": "报警电量",
+            "paramDatatype": 10,
+            "paramEnName": "VehicleWarningPower",
+            "paramUnit": "",
+            "paramValue": 0.0
+        },
+        {
+            "paramCnName": "举升最大高度",
+            "paramDatatype": 10,
+            "paramEnName": "MaxLiftHeight",
+            "paramUnit": "",
+            "paramValue": 7000.0
+        },
+        {
+            "paramCnName": "一级门架称重偏移量",
+            "paramDatatype": 10,
+            "paramEnName": "FirstGantryWeightDetectionOffset1",
+            "paramUnit": "",
+            "paramValue": 0.0
+        },
+        {
+            "paramCnName": "二级门架称重偏移量",
+            "paramDatatype": 10,
+            "paramEnName": "SecondaryGantryWeightDetectionOffset1",
+            "paramUnit": "",
+            "paramValue": 0.0
+        },
+        {
+            "paramCnName": "货物检测单双",
+            "paramDatatype": 10,
+            "paramEnName": "GoodsInspectionSingleDouble",
+            "paramUnit": "",
+            "paramValue": 1
+        },
+        {
+            "paramCnName": "举升带载最大速度",
+            "paramDatatype": 10,
+            "paramEnName": "LiftLoadMaxSpeed",
+            "paramUnit": "",
+            "paramValue": 0.40
+        },
+        {
+            "paramCnName": "举升空载最大速度",
+            "paramDatatype": 10,
+            "paramEnName": "LiftNoLoadMaxSpeed",
+            "paramUnit": "",
+            "paramValue": 0.40
+        },
+        {
+            "paramCnName": "举升带载最小速度",
+            "paramDatatype": 10,
+            "paramEnName": "LiftLoadMinSpeed",
+            "paramUnit": "",
+            "paramValue": 0.02
+        },
+        {
+            "paramCnName": "举升空载最小速度",
+            "paramDatatype": 10,
+            "paramEnName": "LiftNoLoadMinSpeed",
+            "paramUnit": "",
+            "paramValue": 0.02
+        },
+        {
+            "paramCnName": "举升带载加速度",
+            "paramDatatype": 10,
+            "paramEnName": "LiftLoadAcceleration",
+            "paramUnit": "",
+            "paramValue": 0.2
+        },
+        {
+            "paramCnName": "举升空载加速度",
+            "paramDatatype": 10,
+            "paramEnName": "LiftNoLoadAcceleration",
+            "paramUnit": "",
+            "paramValue": 0.35
+        },
+        {
+            "paramCnName": "举升带载减速度",
+            "paramDatatype": 10,
+            "paramEnName": "LiftLoadDeceleration",
+            "paramUnit": "",
+            "paramValue": 0.2
+        },
+        {
+            "paramCnName": "举升空载减速度",
+            "paramDatatype": 10,
+            "paramEnName": "LiftNoLoadDeceleration",
+            "paramUnit": "",
+            "paramValue": 0.35
+        },
+        {
+            "paramCnName": "举升带载低速度运行距离",
+            "paramDatatype": 10,
+            "paramEnName": "LiftLoadLowSpeedDistance",
+            "paramUnit": "",
+            "paramValue": 0.05
+        },
+        {
+            "paramCnName": "举升空载低速度运行距离",
+            "paramDatatype": 10,
+            "paramEnName": "LiftNoLoadLowSpeedDistance",
+            "paramUnit": "",
+            "paramValue": 0.02
+        },
+        {
+            "paramCnName": "举升下降加速度补偿",
+            "paramDatatype": 10,
+            "paramEnName": "LiftDownAccFactor",
+            "paramUnit": "",
+            "paramValue": 1.0
+        },
+        {
+            "paramCnName": "举升下降减速度补偿",
+            "paramDatatype": 10,
+            "paramEnName": "LiftDownDccFactor",
+            "paramUnit": "",
+            "paramValue": 2.0
+        },
+        {
+            "paramCnName": "平移最大高度",
+            "paramDatatype": 10,
+            "paramEnName": "MaxStretchHeight",
+            "paramUnit": "",
+            "paramValue": 96.0
+        },
+        {
+            "paramCnName": "门架侧移带载最大速度",
+            "paramDatatype": 10,
+            "paramEnName": "StretchLoadMaxSpeed",
+            "paramUnit": "",
+            "paramValue": 0.06
+        },
+        {
+            "paramCnName": "门架侧移空载最大速度",
+            "paramDatatype": 10,
+            "paramEnName": "StretchNoLoadMaxSpeed",
+            "paramUnit": "",
+            "paramValue": 0.06
+        },
+        {
+            "paramCnName": "门架侧移带载最小速度",
+            "paramDatatype": 10,
+            "paramEnName": "StretchLoadMinSpeed",
+            "paramUnit": "",
+            "paramValue": 0.02
+        },
+        {
+            "paramCnName": "门架侧移空载最小速度",
+            "paramDatatype": 10,
+            "paramEnName": "StretchNoLoadMinSpeed",
+            "paramUnit": "",
+            "paramValue": 0.02
+        },
+        {
+            "paramCnName": "门架侧移带载加速度",
+            "paramDatatype": 10,
+            "paramEnName": "StretchLoadAcceleration",
+            "paramUnit": "",
+            "paramValue": 0.06
+        },
+        {
+            "paramCnName": "门架侧移空载加速度",
+            "paramDatatype": 10,
+            "paramEnName": "StretchNoLoadAcceleration",
+            "paramUnit": "",
+            "paramValue": 0.08
+        },
+        {
+            "paramCnName": "门架侧移带载减速度",
+            "paramDatatype": 10,
+            "paramEnName": "StretchLoadDeceleration",
+            "paramUnit": "",
+            "paramValue": 0.05
+        },
+        {
+            "paramCnName": "门架侧移空载减速度",
+            "paramDatatype": 10,
+            "paramEnName": "StretchNoLoadDeceleration",
+            "paramUnit": "",
+            "paramValue": 0.07
+        },
+        {
+            "paramCnName": "门架侧移带载低速度运行距离",
+            "paramDatatype": 10,
+            "paramEnName": "StretchLoadLowSpeedDistance",
+            "paramUnit": "",
+            "paramValue": 0
+        },
+        {
+            "paramCnName": "门架侧移空载低速度运行距离",
+            "paramDatatype": 10,
+            "paramEnName": "StretchNoLoadLowSpeedDistance",
+            "paramUnit": "",
+            "paramValue": 0
+        },
+        {
+            "paramCnName": "门架侧移下降加速度补偿",
+            "paramDatatype": 10,
+            "paramEnName": "StretchDownAccFactor",
+            "paramUnit": "",
+            "paramValue": 1.0
+        },
+        {
+            "paramCnName": "门架侧移下降减速度补偿",
+            "paramDatatype": 10,
+            "paramEnName": "StretchDownDccFactor",
+            "paramUnit": "",
+            "paramValue": 1.0
+        },
+        {
+            "paramCnName": "门架俯仰实时控制模式",
+            "paramDatatype": 10,
+            "paramEnName": "PitchRealControlMode",
+            "paramUnit": "",
+            "paramValue": 0
+        },
+        {
+            "paramCnName": "门架俯仰A边长度",
+            "paramDatatype": 10,
+            "paramEnName": "PitchALength",
+            "paramUnit": "",
+            "paramValue": 565.51
+        },
+        {
+            "paramCnName": "门架俯仰B边长度",
+            "paramDatatype": 10,
+            "paramEnName": "PitchBLength",
+            "paramUnit": "",
+            "paramValue": 492.544
+        },
+        {
+            "paramCnName": "门架俯仰角度最大值",
+            "paramDatatype": 10,
+            "paramEnName": "PitchMaxHeight",
+            "paramUnit": "",
+            "paramValue": 0.1
+        },
+        {
+            "paramCnName": "门架俯仰角度最小值",
+            "paramDatatype": 10,
+            "paramEnName": "PitchMinHeight",
+            "paramUnit": "",
+            "paramValue": -0.05
+        },
+        {
+            "paramCnName": "门架零点偏移量",
+            "paramDatatype": 10,
+            "paramEnName": "PitchZeroOffset",
+            "paramUnit": "",
+            "paramValue": 1.122
+        },
+        {
+            "paramCnName": "门架俯仰带载最大速度",
+            "paramDatatype": 10,
+            "paramEnName": "PitchLoadMaxSpeed",
+            "paramUnit": "",
+            "paramValue": 0.005
+        },
+        {
+            "paramCnName": "门架俯仰空载最大速度",
+            "paramDatatype": 10,
+            "paramEnName": "PitchNoLoadMaxSpeed",
+            "paramUnit": "",
+            "paramValue": 0.02
+        },
+        {
+            "paramCnName": "门架俯仰带载最小速度",
+            "paramDatatype": 10,
+            "paramEnName": "PitchLoadMinSpeed",
+            "paramUnit": "",
+            "paramValue": 0.005
+        },
+        {
+            "paramCnName": "门架俯仰空载最小速度",
+            "paramDatatype": 10,
+            "paramEnName": "PitchNoLoadMinSpeed",
+            "paramUnit": "",
+            "paramValue": 0.01
+        },
+        {
+            "paramCnName": "门架俯仰带载加速度",
+            "paramDatatype": 10,
+            "paramEnName": "PitchLoadAcceleration",
+            "paramUnit": "",
+            "paramValue": 0.01
+        },
+        {
+            "paramCnName": "门架俯仰空载加速度",
+            "paramDatatype": 10,
+            "paramEnName": "PitchNoLoadAcceleration",
+            "paramUnit": "",
+            "paramValue": 0.02
+        },
+        {
+            "paramCnName": "门架俯仰带载减速度",
+            "paramDatatype": 10,
+            "paramEnName": "PitchLoadDeceleration",
+            "paramUnit": "",
+            "paramValue": 0.002
+        },
+        {
+            "paramCnName": "门架俯仰空载减速度",
+            "paramDatatype": 10,
+            "paramEnName": "PitchNoLoadDeceleration",
+            "paramUnit": "",
+            "paramValue": 0.02
+        },
+        {
+            "paramCnName": "门架俯仰带载低速度运行距离",
+            "paramDatatype": 10,
+            "paramEnName": "PitchLoadLowSpeedDistance",
+            "paramUnit": "",
+            "paramValue": 10.0
+        },
+        {
+            "paramCnName": "门架俯仰空载低速度运行距离",
+            "paramDatatype": 10,
+            "paramEnName": "PitchNoLoadLowSpeedDistance",
+            "paramUnit": "",
+            "paramValue": 0.0
+        },
+        {
+            "paramCnName": "门架俯仰下降加速度补偿",
+            "paramDatatype": 10,
+            "paramEnName": "PitchDownAccFactor",
+            "paramUnit": "",
+            "paramValue": 1.0
+        },
+        {
+            "paramCnName": "门架俯仰下降减速度补偿",
+            "paramDatatype": 10,
+            "paramEnName": "PitchDownDccFactor",
+            "paramUnit": "",
+            "paramValue": 1.0
+        },
+        {
+            "paramCnName": "门架货叉存在",
+            "paramDatatype": 10,
+            "paramEnName": "ForkExist",
+            "paramUnit": "",
+            "paramValue": 1
+        },
+        {
+            "paramCnName": "门架货叉俯仰实时控制模式",
+            "paramDatatype": 10,
+            "paramEnName": "ForkRealControlMode",
+            "paramUnit": "",
+            "paramValue": 0
+        },
+        {
+            "paramCnName": "门架货叉A边长度",
+            "paramDatatype": 10,
+            "paramEnName": "ForkALength",
+            "paramUnit": "",
+            "paramValue": 492.7
+        },
+        {
+            "paramCnName": "门架货叉B边长度",
+            "paramDatatype": 10,
+            "paramEnName": "ForkBLength",
+            "paramUnit": "",
+            "paramValue": 466.0
+        },
+        {
+            "paramCnName": "门架货叉俯仰角度最大值",
+            "paramDatatype": 10,
+            "paramEnName": "ForkMaxHeight",
+            "paramUnit": "",
+            "paramValue": 0.065
+        },
+        {
+            "paramCnName": "门架货叉俯仰角度最小值",
+            "paramDatatype": 10,
+            "paramEnName": "ForkMinHeight",
+            "paramUnit": "",
+            "paramValue": -0.035
+        },
+        {
+            "paramCnName": "门架货叉零点偏移量",
+            "paramDatatype": 10,
+            "paramEnName": "ForkZeroOffset",
+            "paramUnit": "",
+            "paramValue": -0.2601
+        },
+        {
+            "paramCnName": "门架货叉带载最大速度",
+            "paramDatatype": 10,
+            "paramEnName": "ForkLoadMaxSpeed",
+            "paramUnit": "",
+            "paramValue": 0.005
+        },
+        {
+            "paramCnName": "门架货叉空载最大速度",
+            "paramDatatype": 10,
+            "paramEnName": "ForkNoLoadMaxSpeed",
+            "paramUnit": "",
+            "paramValue": 0.015
+        },
+        {
+            "paramCnName": "门架货叉带载最小速度",
+            "paramDatatype": 10,
+            "paramEnName": "ForkLoadMinSpeed",
+            "paramUnit": "",
+            "paramValue": 0.005
+        },
+        {
+            "paramCnName": "门架货叉空载最小速度",
+            "paramDatatype": 10,
+            "paramEnName": "ForkNoLoadMinSpeed",
+            "paramUnit": "",
+            "paramValue": 0.005
+        },
+        {
+            "paramCnName": "门架货叉带载加速度",
+            "paramDatatype": 10,
+            "paramEnName": "ForkLoadAcceleration",
+            "paramUnit": "",
+            "paramValue": 0.005
+        },
+        {
+            "paramCnName": "门架货叉空载加速度",
+            "paramDatatype": 10,
+            "paramEnName": "ForkNoLoadAcceleration",
+            "paramUnit": "",
+            "paramValue": 0.01
+        },
+        {
+            "paramCnName": "门架货叉带载减速度",
+            "paramDatatype": 10,
+            "paramEnName": "ForkLoadDeceleration",
+            "paramUnit": "",
+            "paramValue": 0.005
+        },
+        {
+            "paramCnName": "门架货叉空载减速度",
+            "paramDatatype": 10,
+            "paramEnName": "ForkNoLoadDeceleration",
+            "paramUnit": "",
+            "paramValue": 0.005
+        },
+        {
+            "paramCnName": "门架货叉带载低速度运行距离",
+            "paramDatatype": 10,
+            "paramEnName": "ForkLoadLowSpeedDistance",
+            "paramUnit": "",
+            "paramValue": 0.0
+        },
+        {
+            "paramCnName": "门架货叉空载低速度运行距离",
+            "paramDatatype": 10,
+            "paramEnName": "ForkNoLoadLowSpeedDistance",
+            "paramUnit": "",
+            "paramValue": 0.0
+        },
+        {
+            "paramCnName": "门架货叉下降加速度补偿",
+            "paramDatatype": 10,
+            "paramEnName": "ForkDownAccFactor",
+            "paramUnit": "",
+            "paramValue": 1.0
+        },
+        {
+            "paramCnName": "门架货叉下降减速度补偿",
+            "paramDatatype": 10,
+            "paramEnName": "ForkDownDccFactor",
+            "paramUnit": "",
+            "paramValue": 1.0
+        }
+    ],
+    "structParamInfos": [
+        {
+            "paramCnName": "车辆高度",
+            "paramDatatype": 10,
+            "paramEnName": "height",
+            "paramUnit": "",
+            "paramValue": 0.0
+        },
+        {
+            "paramCnName": "车体长度",
+            "paramDatatype": 10,
+            "paramEnName": "length",
+            "paramUnit": "",
+            "paramValue": 0.0
+        },
+        {
+            "paramCnName": "车辆宽度",
+            "paramDatatype": 10,
+            "paramEnName": "width",
+            "paramUnit": "",
+            "paramValue": 0.0
+        }
+    ],
+    "vehicleChassisType": "6",  
+    "vehicleDeviceModelDesc": "三一电转向室外平衡重叉车",
+    "vehicleDeviceModelName": "Forklift_CLASSI_SANY_VCU_DRIVE",
+    "vehicleStructDeviceInfos": [
+        {
+            "canNodeID": 3,
+            "canNumber": "can1",
+            "classID": "100",
+            "comPort": "",
+            "componentParamInfos": [
+                {
+                    "paramCnName": "拉线编码器偏移",
+                    "paramDatatype": 10,
+                    "paramEnName": "encoderOffset",
+                    "paramUnit": "",
+                    "paramValue": 110.0
+                },
+                {
+                    "paramCnName": "拉线编码器分子",
+                    "paramDatatype": 10,
+                    "paramEnName": "encoderNumerator",
+                    "paramUnit": "",
+                    "paramValue": 0.1
+                },
+                {
+                    "paramCnName": "拉线编码器分母",
+                    "paramDatatype": 10,
+                    "paramEnName": "encoderDenominator",
+                    "paramUnit": "",
+                    "paramValue": 1.0
+                }
+            ],
+            "deviceIsEnable": 1,
+            "deviceObjectEn": "CableEncoderTofi",
+            "deviceObjectID": "002",
+            "deviceObjectModel": "M1",
+            "deviceObjectProtoType": "CAN",
+            "groupID": "001",
+            "ip": "",
+            "port": 0,
+            "vehicleStructDeviceDesc": "拉线编码器",
+            "vehicleStructDeviceName": "CableEncoderTofiFork"
+        },
+        {
+            "canNodeID": 2,
+            "canNumber": "can1",
+            "classID": "100",
+            "comPort": "",
+            "componentParamInfos": [
+                {
+                    "paramCnName": "拉线编码器偏移",
+                    "paramDatatype": 10,
+                    "paramEnName": "encoderOffset",
+                    "paramUnit": "",
+                    "paramValue": 518.885
+                },
+                {
+                    "paramCnName": "拉线编码器分子",
+                    "paramDatatype": 10,
+                    "paramEnName": "encoderNumerator",
+                    "paramUnit": "",
+                    "paramValue": 0.1
+                },
+                {
+                    "paramCnName": "拉线编码器分母",
+                    "paramDatatype": 10,
+                    "paramEnName": "encoderDenominator",
+                    "paramUnit": "",
+                    "paramValue": 1.0
+                }
+            ],
+            "deviceIsEnable": 1,
+            "deviceObjectEn": "CableEncoderTofi",
+            "deviceObjectID": "002",
+            "deviceObjectModel": "M1",
+            "deviceObjectProtoType": "CAN",
+            "groupID": "001",
+            "ip": "",
+            "port": 0,
+            "vehicleStructDeviceDesc": "拉线编码器",
+            "vehicleStructDeviceName": "CableEncoderTofiPitch"
+        },
+        {
+            "canNodeID": 1,
+            "canNumber": "can1",
+            "classID": "100",
+            "comPort": "",
+            "componentParamInfos": [
+                {
+                    "paramCnName": "拉线编码器偏移",
+                    "paramDatatype": 10,
+                    "paramEnName": "encoderOffset",
+                    "paramUnit": "",
+                    "paramValue": -21.7
+                },
+                {
+                    "paramCnName": "拉线编码器分子",
+                    "paramDatatype": 10,
+                    "paramEnName": "encoderNumerator",
+                    "paramUnit": "",
+                    "paramValue": 0.1
+                },
+                {
+                    "paramCnName": "拉线编码器坟分母",
+                    "paramDatatype": 10,
+                    "paramEnName": "encoderDenominator",
+                    "paramUnit": "",
+                    "paramValue": 1.0
+                }
+            ],
+            "deviceIsEnable": 1,
+            "deviceObjectEn": "CableEncoderTofi",
+            "deviceObjectID": "002",
+            "deviceObjectModel": "M1",
+            "deviceObjectProtoType": "CAN",
+            "groupID": "001",
+            "ip": "",
+            "port": 0,
+            "vehicleStructDeviceDesc": "拉线编码器",
+            "vehicleStructDeviceName": "CableEncoderTofi"
+        },
+        {
+            "canNodeID": 0,
+            "canNumber": "can1",
+            "classID": "100",
+            "comPort": "",
+            "componentParamInfos": [
+                {
+                    "paramCnName": "拉线编码器偏移",
+                    "paramDatatype": 10,
+                    "paramEnName": "encoderOffset",
+                    "paramUnit": "",
+                    "paramValue": 100.0
+                },
+                {
+                    "paramCnName": "拉线编码器分子",
+                    "paramDatatype": 10,
+                    "paramEnName": "encoderNumerator",
+                    "paramUnit": "",
+                    "paramValue": -0.1
+                },
+                {
+                    "paramCnName": "拉线编码器分母",
+                    "paramDatatype": 10,
+                    "paramEnName": "encoderDenominator",
+                    "paramUnit": "",
+                    "paramValue": 1.0
+                }
+
+            ],
+            "deviceIsEnable": 1,
+            "deviceObjectEn": "CableEncoderTofi",
+            "deviceObjectID": "002",
+            "deviceObjectModel": "M1",
+            "deviceObjectProtoType": "CAN",
+            "groupID": "001",
+            "ip": "",
+            "port": 0,
+            "vehicleStructDeviceDesc": "拉线编码器",
+            "vehicleStructDeviceName": "CableEncoderTofiStretch"
+        },
+        {
+            "canNodeID": 0,
+            "canNumber": "can0",
+            "classID": "10",
+            "comPort": "",
+            "componentParamInfos": [
+                {
+                    "paramCnName": "加速度",
+                    "paramDatatype": 10,
+                    "paramEnName": "servoAccSpeed",
+                    "paramUnit": "",
+                    "paramValue": 0.1
+                },
+                {
+                    "paramCnName": "减速度",
+                    "paramDatatype": 10,
+                    "paramEnName": "servoDccSpeed",
+                    "paramUnit": "",
+                    "paramValue": 0.1
+                },
+                {
+                    "paramCnName": "起升油泵最大速度",
+                    "paramDatatype": 10,
+                    "paramEnName": "MaxSpeedLiftingOilPump",
+                    "paramUnit": "",
+                    "paramValue": 2500
+                },
+                {
+                    "paramCnName": "平移油泵最大速度",
+                    "paramDatatype": 10,
+                    "paramEnName": "MaxSpeedStretchOilPump",
+                    "paramUnit": "",
+                    "paramValue": 600
+                },
+                {
+                    "paramCnName": "门架倾斜油泵最大速度",
+                    "paramDatatype": 10,
+                    "paramEnName": "MaxSpeedTiltingOilPump",
+                    "paramUnit": "",
+                    "paramValue": 600
+                },
+                {
+                    "paramCnName": "货叉倾斜油泵最大速度",
+                    "paramDatatype": 10,
+                    "paramEnName": "MaxSpeedForkOilPump",
+                    "paramUnit": "",
+                    "paramValue": 600
+                },
+                {
+                    "paramCnName": "驻车最小速度",
+                    "paramDatatype": 10,
+                    "paramEnName": "ParkingSpeed",
+                    "paramUnit": "",
+                    "paramValue": 0.02
+                },
+                {
+                    "paramCnName": "举升保压阀是否存在",
+                    "paramDatatype": 10,
+                    "paramEnName": "LiftPressureValveExist",
+                    "paramUnit": "",
+                    "paramValue": 1
+                },
+                {
+                    "paramCnName": "举升上升Rpm换算系数K",
+                    "paramDatatype": 10,
+                    "paramEnName": "UpLiftRpmConversionK",
+                    "paramUnit": "",
+                    "paramValue": 5080
+                },
+                {
+                    "paramCnName": "举升上升比例阀换算系数K",
+                    "paramDatatype": 10,
+                    "paramEnName": "UpLiftConversionK",
+                    "paramUnit": "",
+                    "paramValue": 1257
+                },
+                {
+                    "paramCnName": "举升下降带载比例阀换算系数K",
+                    "paramDatatype": 10,
+                    "paramEnName": "DownLiftConversionK_Load",
+                    "paramUnit": "",
+                    "paramValue": 606
+                },
+                {
+                    "paramCnName": "举升下降空载比例阀换算系数K",
+                    "paramDatatype": 10,
+                    "paramEnName": "DownLiftConversionK_unLoad",
+                    "paramUnit": "",
+                    "paramValue": 606
+                },
+                {
+                    "paramCnName": "举升上升Rpm偏移系数B",
+                    "paramDatatype": 10,
+                    "paramEnName": "UpLiftRpmOffSetB",
+                    "paramUnit": "",
+                    "paramValue": 219
+                },
+                {
+                    "paramCnName": "举升上升偏移系数B",
+                    "paramDatatype": 10,
+                    "paramEnName": "UpLiftOffSetB",
+                    "paramUnit": "",
+                    "paramValue": 317
+                },
+                {
+                    "paramCnName": "举升下降偏移系数B",
+                    "paramDatatype": 10,
+                    "paramEnName": "DownLiftOffSetB",
+                    "paramUnit": "",
+                    "paramValue": 330
+                },
+                {
+                    "paramCnName": "上升比例阀最小开度",
+                    "paramDatatype": 10,
+                    "paramEnName": "UpMinimumOpening",
+                    "paramUnit": "",
+                    "paramValue": 330
+                },
+                {
+                    "paramCnName": "下降比例阀最小开度",
+                    "paramDatatype": 10,
+                    "paramEnName": "DownMinimumOpening",
+                    "paramUnit": "",
+                    "paramValue": 335
+                },
+                {
+                    "paramCnName": "侧移左换算系数K",
+                    "paramDatatype": 10,
+                    "paramEnName": "LeftStretchConversionK",
+                    "paramUnit": "",
+                    "paramValue": 2715
+                },
+                {
+                    "paramCnName": "侧移右换算系数K",
+                    "paramDatatype": 10,
+                    "paramEnName": "RightStretchConversionK",
+                    "paramUnit": "",
+                    "paramValue": 2419
+                },
+                {
+                    "paramCnName": "侧移左偏移系数B",
+                    "paramDatatype": 10,
+                    "paramEnName": "LeftStretchOffSetB",
+                    "paramUnit": "",
+                    "paramValue": 416
+                },
+                {
+                    "paramCnName": "侧移右偏移系数B",
+                    "paramDatatype": 10,
+                    "paramEnName": "RightStretchOffSetB",
+                    "paramUnit": "",
+                    "paramValue": 390
+                },
+                {
+                    "paramCnName": "左移比例阀最小开度",
+                    "paramDatatype": 10,
+                    "paramEnName": "LeftMinimumOpening",
+                    "paramUnit": "",
+                    "paramValue": 440
+                },
+                {
+                    "paramCnName": "右移比例阀最小开度",
+                    "paramDatatype": 10,
+                    "paramEnName": "RightMinimumOpening",
+                    "paramUnit": "",
+                    "paramValue": 410
+                },
+                {
+                    "paramCnName": "门架前倾换算系数K",
+                    "paramDatatype": 10,
+                    "paramEnName": "FrontPitchConversionK",
+                    "paramUnit": "",
+                    "paramValue": 13333.0
+                },
+                {
+                    "paramCnName": "门架后仰换算系数K",
+                    "paramDatatype": 10,
+                    "paramEnName": "BackwardPitchConversionK",
+                    "paramUnit": "",
+                    "paramValue": 6666.0
+                },
+                {
+                    "paramCnName": "门架前倾偏移系数B",
+                    "paramDatatype": 10,
+                    "paramEnName": "FrontPitchOffSetB",
+                    "paramUnit": "",
+                    "paramValue": 350
+                },
+                {
+                    "paramCnName": "门架后仰偏移系数B",
+                    "paramDatatype": 10,
+                    "paramEnName": "BackwardPitchOffSetB",
+                    "paramUnit": "",
+                    "paramValue": 403
+                },
+                {
+                    "paramCnName": "前倾比例阀最小开度",
+                    "paramDatatype": 10,
+                    "paramEnName": "FrontMinimumOpening",
+                    "paramUnit": "",
+                    "paramValue": 490
+                },
+                {
+                    "paramCnName": "后倾比例阀最小开度",
+                    "paramDatatype": 10,
+                    "paramEnName": "BackwardMinimumOpening",
+                    "paramUnit": "",
+                    "paramValue": 440
+                },
+                {
+                    "paramCnName": "门架货叉前倾换算系数K",
+                    "paramDatatype": 10,
+                    "paramEnName": "FrontForkConversionK",
+                    "paramUnit": "",
+                    "paramValue": 8750
+                },
+                {
+                    "paramCnName": "门架货叉后仰换算系数K",
+                    "paramDatatype": 10,
+                    "paramEnName": "BackwardForkConversionK",
+                    "paramUnit": "",
+                    "paramValue": 6666
+                },
+                {
+                    "paramCnName": "门架货叉前倾偏移系数B",
+                    "paramDatatype": 10,
+                    "paramEnName": "FrontForkOffSetB",
+                    "paramUnit": "",
+                    "paramValue": 362
+                },
+                {
+                    "paramCnName": "门架货叉后仰偏移系数B",
+                    "paramDatatype": 10,
+                    "paramEnName": "BackwardForkOffSetB",
+                    "paramUnit": "",
+                    "paramValue": 386
+                },
+                {
+                    "paramCnName": "门架货叉前倾比例阀最小开度",
+                    "paramDatatype": 10,
+                    "paramEnName": "FrontForkMinimumOpening",
+                    "paramUnit": "",
+                    "paramValue": 380
+                },
+                {
+                    "paramCnName": "门架货叉后倾比例阀最小开度",
+                    "paramDatatype": 10,
+                    "paramEnName": "BackwardForkMinimumOpening",
+                    "paramUnit": "",
+                    "paramValue": 400
+                },
+	        {
+                    "paramCnName": "复合控制侧移RPM",
+                    "paramDatatype": 10,
+                    "paramEnName": "ComplexContorlStrechRpm",
+                    "paramUnit": "",
+                    "paramValue": 50
+                },
+                {
+                    "paramCnName": "复合控制门架俯仰RPM",
+                    "paramDatatype": 10,
+                    "paramEnName": "ComplexContorlPitchRpm",
+                    "paramUnit": "",
+                    "paramValue": 100
+                },
+                {
+                    "paramCnName": "复合控制货叉俯仰RPM",
+                    "paramDatatype": 10,
+                    "paramEnName": "ComplexContorlForkRpm",
+                    "paramUnit": "",
+                    "paramValue": 100
+                },
+                {
+                    "paramCnName": "舵",
+                    "paramDatatype": 10,
+                    "paramEnName": "steer",
+                    "paramUnit": "",
+                    "paramValue": 0.0,
+                    "driverType": 3,
+                    "xCoordinate": 1.850,
+                    "yCoordinate": 0,
+                    "installDir": 1,
+                    "Scale": 100,
+                    "steerOffset": 0.0,
+                    "steerMaxAngle": 90,
+                    "wheelRadius" : 0,
+                    "reduceRatio" : 1
+                },
+                {
+                    "paramCnName": "轮",
+                    "paramDatatype": 10,
+                    "paramEnName": "wheel",
+                    "paramUnit": "",
+                    "paramValue": 0.0,
+                    "driverType": 2,
+                    "xCoordinate": 0,
+                    "yCoordinate": 0,
+                    "installDir": -1,
+                    "Scale": 1.0,
+                    "steerOffset":0.0,
+                    "steerMaxAngle": 0,
+                    "wheelRadius" : 0.3675,
+                    "reduceRatio" : 48.978
+                },
+                {
+                    "paramCnName": "前左轮",
+                    "paramDatatype": 10,
+                    "paramEnName": "front_left",
+                    "paramUnit": "",
+                    "paramValue": 0.0,
+                    "driverType": 2,
+                    "xCoordinate": 1.85,
+                    "yCoordinate": 0.525,
+                    "installDir": 1,
+                    "Scale": 1.0,
+                    "steerOffset":0.0,
+                    "steerMaxAngle": 0,
+                    "wheelRadius" : 0,
+                    "reduceRatio" : 1
+                },
+                {
+                    "paramCnName": "前右轮",
+                    "paramDatatype": 10,
+                    "paramEnName": "front_right",
+                    "paramUnit": "",
+                    "paramValue": 0.0,
+                    "driverType": 2,
+                    "xCoordinate": 1.85,
+                    "yCoordinate": -0.525,
+                    "installDir": 1,
+                    "Scale": 1.0,
+                    "steerOffset":0.0,
+                    "steerMaxAngle": 0,
+                    "wheelRadius" : 0,
+                    "reduceRatio" : 1
+                },
+                {
+                    "paramCnName": "后左轮",
+                    "paramDatatype": 10,
+                    "paramEnName": "rear_left",
+                    "paramUnit": "",
+                    "paramValue": 0.0,
+                    "driverType": 2,
+                    "xCoordinate": 0,
+                    "yCoordinate": 0.5,
+                    "installDir": 1,
+                    "Scale": 1.0,
+                    "steerOffset":0.0,
+                    "steerMaxAngle": 0,
+                    "wheelRadius" : 0,
+                    "reduceRatio" : 1
+                },
+                {
+                    "paramCnName": "后右轮",
+                    "paramDatatype": 10,
+                    "paramEnName": "rear_right",
+                    "paramUnit": "",
+                    "paramValue": 0.0,
+                    "driverType": 2,
+                    "xCoordinate": 0,
+                    "yCoordinate": 0.5,
+                    "installDir": 1,
+                    "Scale": 1.0,
+                    "steerOffset":0.0,
+                    "steerMaxAngle": 0,
+                    "wheelRadius" : 0,
+                    "reduceRatio" : 1
+                }
+            ],
+            "deviceIsEnable": 1,
+            "deviceObjectEn": "CLASSI_VCU",
+            "deviceObjectID": "004",
+            "deviceObjectModel": "M1",
+            "deviceObjectProtoType": "CANopen",
+            "groupID": "04",
+            "ip": "",
+            "port": 0,
+            "vehicleStructDeviceDesc": "一体化电机",
+            "vehicleStructDeviceName": "CLASSI_VCU"
+        },
+        {
+            "canNodeID": 0,
+            "canNumber": "can1",
+            "classID": "40",
+            "comPort": "",
+            "deviceIsEnable": 1,
+            "deviceObjectEn": "SanyBattery",
+            "deviceObjectID": "001",
+            "deviceObjectModel": "M1",
+            "deviceObjectProtoType": "CAN",
+            "groupID": "01",
+            "ip": "",
+            "port": 0,
+            "vehicleStructDeviceDesc": "电池",
+            "vehicleStructDeviceName": "SanyBattery"
+        },
+        {
+            "canNodeID": 0,
+            "canNumber": "can1",
+            "classID": "40",
+            "comPort": "",
+            "deviceIsEnable": 1,
+            "deviceObjectEn": "SanyCharge",
+            "deviceObjectID": "001",
+            "deviceObjectModel": "M1",
+            "deviceObjectProtoType": "CAN",
+            "groupID": "02",
+            "ip": "",
+            "port": 0,
+            "vehicleStructDeviceDesc": "充电机",
+            "vehicleStructDeviceName": "SanyCharge"
+        },
+        {
+            "adjustParamInfos": [
+                {
+                    "paramCnName": "测试扬声器调节参数",
+                    "paramDatatype": 6,
+                    "paramEnName": "testspeakeradjustparam",
+                    "paramUnit": "",
+                    "paramValue": "0"
+                }
+            ],
+            "canNodeID": 0,
+            "canNumber": "can1",
+            "classID": "60",
+            "comPort": "",
+            "deviceIsEnable": 1,
+            "deviceObjectEn": "Papayea",
+            "deviceObjectID": "001",
+            "deviceObjectModel": "M1",
+            "deviceObjectProtoType": "CAN",
+            "groupID": "01",
+            "ip": "",
+            "port": 0,
+            "vehicleStructDeviceDesc": "扬声器",
+            "vehicleStructDeviceName": "loundSpeaker"
+        },
+        {
+            "canNodeID": 0,
+            "canNumber": "",
+            "classID": "70",
+            "comPort": "",
+            "deviceIsEnable": 1,
+            "deviceObjectEn": "VENSIN_X5000",
+            "deviceObjectID": "002",
+            "deviceObjectModel": "CLASSI_Fork_MI",
+            "deviceObjectProtoType": "PCIE",
+            "groupID": "004",
+            "ip": "",
+            "port": 0,
+            "vehicleStructDeviceDesc": "设备IO点位控制_稳信",
+            "vehicleStructDeviceName": "VENSIN_X5000"
+        },
+        {
+            "canNodeID": 0,
+            "canNumber": "",
+            "classID": "30",
+            "comPort": "/dev/ttyS0",
+            "deviceIsEnable": 1,
+            "deviceObjectEn": "weightSensor",
+            "deviceObjectID": "001",
+            "deviceObjectModel": "M1",
+            "deviceObjectProtoType": "Serial",
+            "groupID": "03",
+            "ip": "",
+            "port": 0,
+            "vehicleStructDeviceDesc": "一级门架称重检测",
+            "vehicleStructDeviceName": "FirstGantryWeightDetection"
+        },
+        {
+            "canNodeID": 0,
+            "canNumber": "",
+            "classID": "30",
+            "comPort": "/dev/ttyS1",
+            "deviceIsEnable": 0,
+            "deviceObjectEn": "weightSensor",
+            "deviceObjectID": "001",
+            "deviceObjectModel": "M1",
+            "deviceObjectProtoType": "Serial",
+            "groupID": "03",
+            "ip": "",
+            "port": 0,
+            "vehicleStructDeviceDesc": "二级门架称重检测",
+            "vehicleStructDeviceName": "SecondaryGantryWeightDetection"
+        },
+        {
+            "canNodeID": 0,
+            "canNumber": "can1",
+            "classID": "100",
+            "comPort": "",
+            "deviceIsEnable": 1,
+            "deviceObjectEn": "Daoyuan",
+            "deviceObjectID": "001",
+            "deviceObjectModel": "M1",
+            "deviceObjectProtoType": "CAN",
+            "groupID": "01",
+            "ip": "",
+            "port": 0,
+            "vehicleStructDeviceDesc": "GNSS",
+            "vehicleStructDeviceName": "GNSS",
+            "componentParamInfos": [
+                {
+                    "paramCnName": "转换系数",
+                    "paramDatatype": 10,
+                    "paramEnName": "convertFactor",
+                    "paramUnit": "",
+                    "paramValue": 0.00863
+                }
+            ]
+        }
+    ],
+    "version": "20240125193830"
+}

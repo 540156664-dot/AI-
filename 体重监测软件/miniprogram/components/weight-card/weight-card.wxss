@@ -1,0 +1,13 @@
+.weight-card {
+  background: var(--color-card); border-radius: var(--radius-lg);
+  padding: 32rpx; text-align: center; box-shadow: var(--shadow-card);
+}
+.card-header { font-size: 26rpx; color: var(--color-text-secondary); margin-bottom: 12rpx; }
+.card-value { margin-bottom: 16rpx; }
+.card-num { font-size: 72rpx; font-weight: 700; line-height: 1; }
+.card-unit { font-size: 32rpx; color: var(--color-text-secondary); margin-left: 8rpx; }
+.card-footer { font-size: 26rpx; }
+.card-footer.down { color: var(--color-primary); }
+.card-footer.up { color: var(--color-danger); }
+.card-footer.zero { color: var(--color-text-secondary); }
+.card-trend-label { color: var(--color-text-secondary); }

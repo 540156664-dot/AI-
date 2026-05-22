@@ -1,0 +1,92 @@
+<!-- 个人中心 -->
+<view class="page">
+  <!-- 用户卡片 -->
+  <view class="user-card card">
+    <image class="avatar" src="{{avatarUrl || '/images/default-avatar.png'}}" mode="aspectFill" />
+    <view class="user-info">
+      <view class="nickname">{{nickname || '点击登录'}}</view>
+      <view class="user-desc text-secondary">{{isBound ? '已绑定 ' + deviceName : '未绑定设备'}}</view>
+    </view>
+    <button class="login-btn" wx:if="{{!nickname}}" open-type="getUserInfo" bindgetuserinfo="onGetUserInfo">授权</button>
+  </view>
+
+  <!-- 设备管理 -->
+  <view class="section">
+    <view class="section-title">设备管理</view>
+    <view class="card menu-list">
+      <view class="menu-item" bindtap="goBind" wx:if="{{!isBound}}">
+        <view class="menu-icon">⚖️</view>
+        <view class="menu-text">绑定小米体脂秤</view>
+        <view class="menu-arrow">›</view>
+      </view>
+      <view class="menu-item" wx:else>
+        <view class="menu-icon">⚖️</view>
+        <view class="menu-text">{{deviceName}}</view>
+        <view class="menu-status active">已连接</view>
+        <view class="menu-arrow" bindtap="unbindDevice">解绑</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 身体信息 -->
+  <view class="section">
+    <view class="section-title">身体信息</view>
+    <view class="card menu-list">
+      <view class="menu-item" bindtap="editHeight">
+        <view class="menu-icon">📏</view>
+        <view class="menu-text">身高</view>
+        <view class="menu-value text-secondary">
+          {{height ? height + ' cm' : '未设置'}}
+        </view>
+        <view class="menu-arrow">›</view>
+      </view>
+      <view class="menu-item" bindtap="editTarget">
+        <view class="menu-icon">🎯</view>
+        <view class="menu-text">目标体重</view>
+        <view class="menu-value text-secondary">
+          {{targetWeight ? targetWeight + ' kg' : '未设置'}}
+        </view>
+        <view class="menu-arrow">›</view>
+      </view>
+      <view class="menu-item" bindtap="editGender">
+        <view class="menu-icon">👤</view>
+        <view class="menu-text">性别</view>
+        <view class="menu-value text-secondary">{{genderText}}</view>
+        <view class="menu-arrow">›</view>
+      </view>
+      <view class="menu-item" bindtap="editBirthday">
+        <view class="menu-icon">🎂</view>
+        <view class="menu-text">出生日期</view>
+        <view class="menu-value text-secondary">{{birthday || '未设置'}}</view>
+        <view class="menu-arrow">›</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 设置 -->
+  <view class="section">
+    <view class="section-title">设置</view>
+    <view class="card menu-list">
+      <view class="menu-item">
+        <view class="menu-icon">🔔</view>
+        <view class="menu-text">未称重提醒</view>
+        <switch checked="{{reminderEnabled}}" bindchange="toggleReminder" color="#52C41A" />
+      </view>
+      <view class="menu-item" bindtap="exportData">
+        <view class="menu-icon">📤</view>
+        <view class="menu-text">导出数据</view>
+        <view class="menu-arrow">›</view>
+      </view>
+      <view class="menu-item" bindtap="clearCache">
+        <view class="menu-icon">🗑️</view>
+        <view class="menu-text">清除本地缓存</view>
+        <view class="menu-arrow">›</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 关于 -->
+  <view class="about text-center">
+    <view class="version text-light">轻重 v1.0.0</view>
+  </view>
+</view>

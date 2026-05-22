@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "轻重",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#f5f5f5",
+  "navigationBarBackgroundColor": "#ffffff",
+  "usingComponents": {
+    "weight-card": "/components/weight-card/weight-card"
+  }
+}

@@ -1,0 +1,16 @@
+<!-- 体重趋势折线图 -->
+<view class="chart-wrapper" style="height: {{height}}px">
+  <canvas
+    type="2d"
+    id="trendCanvas"
+    class="chart-canvas"
+    bindtouchstart="onTouchStart"
+    bindtouchmove="onTouchMove"
+    bindtouchend="onTouchEnd"
+  />
+  <!-- 触摸提示 -->
+  <view class="touch-tip" wx:if="{{touchPoint}}" style="left: {{touchPoint.x}}px; top: {{touchPoint.y}}px">
+    <view class="tip-date">{{touchPoint.date}}</view>
+    <view class="tip-weight">{{touchPoint.weight}} kg</view>
+  </view>
+</view>

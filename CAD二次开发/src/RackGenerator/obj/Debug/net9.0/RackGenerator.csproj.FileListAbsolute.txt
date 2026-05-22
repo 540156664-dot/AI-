@@ -1,0 +1,15 @@
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\RackGenerator\obj\Debug\net9.0\RackGenerator.csproj.AssemblyReference.cache
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\RackGenerator\obj\Debug\net9.0\RackGenerator.GeneratedMSBuildEditorConfig.editorconfig
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\RackGenerator\obj\Debug\net9.0\RackGenerator.AssemblyInfoInputs.cache
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\RackGenerator\obj\Debug\net9.0\RackGenerator.AssemblyInfo.cs
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\RackGenerator\obj\Debug\net9.0\RackGenerator.csproj.CoreCompileInputs.cache
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\RackGenerator\bin\Debug\net9.0\RackGenerator.deps.json
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\RackGenerator\bin\Debug\net9.0\RackGenerator.dll
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\RackGenerator\bin\Debug\net9.0\RackGenerator.pdb
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\RackGenerator\bin\Debug\net9.0\Common.dll
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\RackGenerator\bin\Debug\net9.0\Common.pdb
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\RackGenerator\obj\Debug\net9.0\RackGene.79D53BAB.Up2Date
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\RackGenerator\obj\Debug\net9.0\RackGenerator.dll
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\RackGenerator\obj\Debug\net9.0\refint\RackGenerator.dll
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\RackGenerator\obj\Debug\net9.0\RackGenerator.pdb
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\RackGenerator\obj\Debug\net9.0\ref\RackGenerator.dll

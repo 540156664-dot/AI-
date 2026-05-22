@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ipconfig /all)",
+      "Bash(ping -n 2 8.8.8.8)",
+      "Bash(nslookup baidu.com)",
+      "Bash(curl -sI --connect-timeout 5 https://www.baidu.com)"
+    ]
+  }
+}

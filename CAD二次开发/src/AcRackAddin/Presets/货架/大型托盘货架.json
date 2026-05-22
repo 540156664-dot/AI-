@@ -1,0 +1,17 @@
+{
+  "L": 3300,
+  "D": 1200,
+  "H": 8000,
+  "NLayer": 5,
+  "HLayer": 1600,
+  "WLayer": 1500,
+  "NRow": 4,
+  "NCol": 8,
+  "WAisle": 3800,
+  "WPallet": 1200,
+  "DPallet": 1100,
+  "GapX": 75,
+  "GapY": 250,
+  "WColumn": 100,
+  "DBeam": 140
+}

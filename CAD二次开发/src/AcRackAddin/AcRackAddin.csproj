@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\RackGenerator\RackGenerator.csproj" />
+    <ProjectReference Include="..\ConveyorGenerator\ConveyorGenerator.csproj" />
+    <ProjectReference Include="..\EquipmentGenerator\EquipmentGenerator.csproj" />
+    <ProjectReference Include="..\BOMExporter\BOMExporter.csproj" />
+    <ProjectReference Include="..\RackUI\RackUI.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>10.0</LangVersion>
+  </PropertyGroup>
+
+</Project>

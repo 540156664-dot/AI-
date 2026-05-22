@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = AcRackAddin
+build_property.ProjectDir = D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\AcRackAddin\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

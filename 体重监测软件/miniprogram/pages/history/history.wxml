@@ -1,0 +1,54 @@
+<!-- 历史记录页 -->
+<view class="page">
+  <!-- 搜索栏 -->
+  <view class="search-bar">
+    <picker mode="date" fields="month" bindchange="onMonthFilter">
+      <view class="month-picker">
+        <text>{{currentMonthText}}</text>
+        <text class="arrow">▼</text>
+      </view>
+    </picker>
+    <view class="record-count text-secondary">{{filteredRecords.length}} 条记录</view>
+  </view>
+
+  <!-- 记录列表 -->
+  <view wx:if="{{filteredRecords.length > 0}}">
+    <view
+      class="record-item card"
+      wx:for="{{filteredRecords}}"
+      wx:key="_id"
+    >
+      <view class="record-left">
+        <view class="record-date">{{item.measureDate}}</view>
+        <view class="record-time" wx:if="{{item.measureTime}}">{{item.measureTime}}</view>
+        <view class="record-source">
+          <text class="source-tag {{item.source === 'xiaomi_cloud' ? 'auto' : 'manual'}}">
+            {{item.source === 'xiaomi_cloud' ? '自动' : '手动'}}
+          </text>
+        </view>
+      </view>
+      <view class="record-center">
+        <view class="record-weight weight-num">{{item.weight}} kg</view>
+        <view class="record-extras" wx:if="{{item.bmi || item.bodyFat}}">
+          <text wx:if="{{item.bmi}}">BMI {{item.bmi}}</text>
+          <text wx:if="{{item.bodyFat}}" style="margin-left: 12rpx">体脂 {{item.bodyFat}}%</text>
+        </view>
+        <view class="record-note text-light" wx:if="{{item.note}}">{{item.note}}</view>
+      </view>
+      <view class="record-right">
+        <view class="record-change {{item._change < 0 ? 'trend-down' : item._change > 0 ? 'trend-up' : 'trend-zero'}}">
+          <text wx:if="{{item._change && item._change < 0}}">↓</text>
+          <text wx:elif="{{item._change && item._change > 0}}">↑</text>
+          <text wx:else>→</text>
+          <text wx:if="{{item._change}}">{{item._changeAbs}} kg</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 空状态 -->
+  <view class="empty-state" wx:else>
+    <view class="title">暂无记录</view>
+    <view class="desc">绑定小米体脂秤后，数据将自动同步</view>
+  </view>
+</view>

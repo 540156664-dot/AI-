@@ -1,0 +1,15 @@
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\BOMExporter\bin\Debug\net9.0\BOMExporter.deps.json
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\BOMExporter\bin\Debug\net9.0\BOMExporter.dll
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\BOMExporter\bin\Debug\net9.0\BOMExporter.pdb
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\BOMExporter\bin\Debug\net9.0\Common.dll
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\BOMExporter\bin\Debug\net9.0\Common.pdb
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\BOMExporter\obj\Debug\net9.0\BOMExporter.csproj.AssemblyReference.cache
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\BOMExporter\obj\Debug\net9.0\BOMExporter.GeneratedMSBuildEditorConfig.editorconfig
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\BOMExporter\obj\Debug\net9.0\BOMExporter.AssemblyInfoInputs.cache
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\BOMExporter\obj\Debug\net9.0\BOMExporter.AssemblyInfo.cs
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\BOMExporter\obj\Debug\net9.0\BOMExporter.csproj.CoreCompileInputs.cache
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\BOMExporter\obj\Debug\net9.0\BOMExpor.EA7C6997.Up2Date
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\BOMExporter\obj\Debug\net9.0\BOMExporter.dll
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\BOMExporter\obj\Debug\net9.0\refint\BOMExporter.dll
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\BOMExporter\obj\Debug\net9.0\BOMExporter.pdb
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\BOMExporter\obj\Debug\net9.0\ref\BOMExporter.dll

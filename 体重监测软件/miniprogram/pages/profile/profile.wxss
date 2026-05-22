@@ -1,0 +1,43 @@
+.page { min-height: 100vh; padding-bottom: 40rpx; }
+
+/* ===== 用户卡片 ===== */
+.user-card {
+  display: flex; align-items: center;
+  padding: 40rpx 32rpx; margin-top: 0;
+}
+.avatar {
+  width: 96rpx; height: 96rpx; border-radius: 50%;
+  background: #eee; flex-shrink: 0;
+}
+.user-info { flex: 1; margin-left: 24rpx; }
+.nickname { font-size: 34rpx; font-weight: 500; margin-bottom: 4rpx; }
+.user-desc { font-size: 26rpx; }
+.login-btn {
+  font-size: 24rpx; padding: 12rpx 24rpx;
+  background: var(--color-primary); color: #fff;
+  border-radius: 32rpx; line-height: 1;
+}
+
+/* ===== 菜单区 ===== */
+.section { margin-top: 32rpx; }
+.section-title {
+  font-size: 26rpx; color: var(--color-text-secondary);
+  padding: 0 32rpx; margin-bottom: 12rpx;
+}
+.menu-list { padding: 0; }
+.menu-item {
+  display: flex; align-items: center;
+  padding: 28rpx 32rpx;
+  border-bottom: 1rpx solid var(--color-border);
+}
+.menu-item:last-child { border-bottom: none; }
+.menu-icon { font-size: 36rpx; margin-right: 20rpx; }
+.menu-text { flex: 1; font-size: 28rpx; }
+.menu-value { font-size: 26rpx; margin-right: 8rpx; }
+.menu-arrow { font-size: 32rpx; color: var(--color-text-light); }
+.menu-status { font-size: 22rpx; padding: 4rpx 16rpx; border-radius: 16rpx; margin-right: 12rpx; }
+.menu-status.active { background: var(--color-success-bg); color: var(--color-primary); }
+
+/* ===== 关于 ===== */
+.about { padding: 48rpx 0; }
+.version { font-size: 24rpx; }

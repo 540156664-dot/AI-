@@ -1,0 +1,8 @@
+{
+  "STK_H": 8000,
+  "STK_Load": 500,
+  "STK_Fork": "single",
+  "STK_Aisle_W": 1500,
+  "STK_SpeedV": 160,
+  "STK_SpeedH": 40
+}

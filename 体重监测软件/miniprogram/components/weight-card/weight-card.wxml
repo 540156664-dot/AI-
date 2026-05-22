@@ -1,0 +1,15 @@
+<!-- 体重数据卡片 -->
+<view class="weight-card">
+  <view class="card-header">{{title}}</view>
+  <view class="card-value">
+    <text class="card-num">{{value}}</text>
+    <text class="card-unit">{{unit}}</text>
+  </view>
+  <view class="card-footer {{trend < 0 ? 'down' : trend > 0 ? 'up' : 'zero'}}" wx:if="{{showTrend}}">
+    <text wx:if="{{trend < 0}}">↓</text>
+    <text wx:elif="{{trend > 0}}">↑</text>
+    <text wx:else>→</text>
+    <text> {{trendAbs}} {{unit}}</text>
+    <text class="card-trend-label"> 较上次</text>
+  </view>
+</view>

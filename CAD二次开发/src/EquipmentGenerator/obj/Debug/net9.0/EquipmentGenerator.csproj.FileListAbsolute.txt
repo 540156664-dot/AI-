@@ -1,0 +1,15 @@
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\EquipmentGenerator\obj\Debug\net9.0\EquipmentGenerator.csproj.AssemblyReference.cache
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\EquipmentGenerator\obj\Debug\net9.0\EquipmentGenerator.GeneratedMSBuildEditorConfig.editorconfig
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\EquipmentGenerator\obj\Debug\net9.0\EquipmentGenerator.AssemblyInfoInputs.cache
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\EquipmentGenerator\obj\Debug\net9.0\EquipmentGenerator.AssemblyInfo.cs
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\EquipmentGenerator\obj\Debug\net9.0\EquipmentGenerator.csproj.CoreCompileInputs.cache
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\EquipmentGenerator\bin\Debug\net9.0\EquipmentGenerator.deps.json
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\EquipmentGenerator\bin\Debug\net9.0\EquipmentGenerator.dll
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\EquipmentGenerator\bin\Debug\net9.0\EquipmentGenerator.pdb
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\EquipmentGenerator\bin\Debug\net9.0\Common.dll
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\EquipmentGenerator\bin\Debug\net9.0\Common.pdb
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\EquipmentGenerator\obj\Debug\net9.0\Equipmen.F8801E42.Up2Date
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\EquipmentGenerator\obj\Debug\net9.0\EquipmentGenerator.dll
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\EquipmentGenerator\obj\Debug\net9.0\refint\EquipmentGenerator.dll
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\EquipmentGenerator\obj\Debug\net9.0\EquipmentGenerator.pdb
+D:\360MoveData\Users\Administrator\Desktop\CAD二次开发\src\EquipmentGenerator\obj\Debug\net9.0\ref\EquipmentGenerator.dll
