@@ -79,7 +79,7 @@
                   </select>
                   <label class="sany-btn sany-btn-outline sany-btn-sm" style="cursor:pointer;white-space:nowrap;font-size:0.7rem;">
                     上传文件
-                    <input type="file" accept=".xlsx,.db" @change="handleUpload" style="display:none;" ref="fileInputRef">
+                    <input type="file" accept=".xlsx" @change="handleUpload" style="display:none;" ref="fileInputRef">
                   </label>
                 </div>
               </div>
@@ -130,7 +130,7 @@ const handleUpload=async(e)=>{
   const file = e.target.files[0]
   if (!file) return
   const ext = file.name.split('.').pop().toLowerCase()
-  if (ext !== 'xlsx' && ext !== 'db') { alert('仅支持 .xlsx 或 .db 文件'); return }
+  if (ext !== 'xlsx') { alert('仅支持 .xlsx 文件'); return }
   try {
     const r = await uploadDictFile(file)
     await loadDictFiles()

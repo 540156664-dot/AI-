@@ -2,10 +2,10 @@ from pydantic_settings import BaseSettings
 from typing import Optional
 
 class Settings(BaseSettings):
-    DATABASE_URL: str
-    SECRET_KEY: str
+    DATABASE_URL: str = "sqlite:///./alarm_system.db"
+    SECRET_KEY: str = "plc-alarm-system-secret-key-2024"
     ALGORITHM: str = "HS256"
-    ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
+    ACCESS_TOKEN_EXPIRE_MINUTES: int = 1440
 
     PLC_IP: str = "127.0.0.1"
     PLC_RACK: int = 0

@@ -21,7 +21,7 @@ UPLOAD_DIR = os.path.join(BASE_DATA_DIR, "uploads")
 def list_dict_files():
     files = []
     base_parent = os.path.join(BASE_DATA_DIR, "..")
-    for ext in ["fault_dict.xlsx", "*.db"]:
+    for ext in ["fault_dict.xlsx"]:
         pattern = os.path.join(BASE_DATA_DIR, "**", ext)
         for f in glob.glob(pattern, recursive=True):
             if os.path.basename(f) == 'alarm_system.db':
@@ -40,8 +40,8 @@ def upload_dict_file(file: UploadFile = File(...), request: Request = None):
     if not file.filename:
         raise HTTPException(status_code=400, detail="No file selected")
     ext = os.path.splitext(file.filename)[1].lower()
-    if ext not in ('.xlsx', '.db'):
-        raise HTTPException(status_code=400, detail="Only .xlsx or .db files allowed")
+    if ext != '.xlsx':
+        raise HTTPException(status_code=400, detail="仅支持 .xlsx 文件")
     os.makedirs(UPLOAD_DIR, exist_ok=True)
     safe_name = Path(file.filename).name
     dest = os.path.join(UPLOAD_DIR, safe_name)
